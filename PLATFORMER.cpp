@@ -91,19 +91,6 @@ int main() {
 	// Main loop
 	while (true) {
 
-		//--------------------------------------------------------------------------------------//
-
-		// RE-checking if any changes on the map in live time
-
-		std::ifstream inFile("map.txt");
-
-		if (inFile.is_open()) {
-			MAPCODE.assign(std::istreambuf_iterator<char>(inFile), {});
-			inFile.close();
-		}
-
-		//--------------------------------------------------------------------------------------//
-
 		ReadyMap = "";
 		// Convert encoded characters to their display equivalents
 		for (size_t i = 0; i < MAPCODE.length(); i++) {
