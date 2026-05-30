@@ -95,11 +95,9 @@ int main() {
 
 		// RE-checking if any changes on the map in live time
 
-		// Attempt to open the map file from the working directory
 		std::ifstream inFile("map.txt");
 
 		if (inFile.is_open()) {
-			// Read the entire file into MAPCODE
 			MAPCODE.assign(std::istreambuf_iterator<char>(inFile), {});
 			inFile.close();
 		}
