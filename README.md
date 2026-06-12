@@ -1,7 +1,7 @@
 # Read this!
 
 ATTION
-this game is POORLY CODED and i used AI to make it!
+this game is POORLY CODED
 
 *(sorry for my bad english)*
 # Simple Walkig game
